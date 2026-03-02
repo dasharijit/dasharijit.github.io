@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Arijit Dash - PhD Cambridge</title>
+<title>Arijit Dash | Cambridge PhD</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <style>
-body{font-family:Arial,sans-serif;max-width:900px;margin:50px auto;padding:0 20px;line-height:1.6;color:#333;background:#fafafa}
-header{text-align:center;padding:60px 0;background:white;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
-img{width:180px;height:180px;border-radius:50%;border:5px solid #4285f4;margin-bottom:20px}
-h1{font-size:2.5em;color:#4285f4;margin:0}
-h2{font-size:1.3em;margin:5px 0;color:#666}
-.btn{display:inline-block;background:#4285f4;color:white;padding:12px 25px;text-decoration:none;border-radius:5px;margin:10px 5px;font-weight:bold}
-section{padding:40px 0}
-ul{list-style:none;padding:0}
-li{background:white;margin:15px 0;padding:20px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
-footer{text-align:center;padding:40px;background:white;border-radius:10px;margin-top:40px;box-shadow:0 -4px 20px rgba(0,0,0,0.1)}
-@media(max-width:700px){body{padding:20px}img{width:140px;height:140px}}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body { font-family: 'Roboto', sans-serif; margin:0; padding:0; line-height:1.7; color:#2c3e50; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); min-height:100vh; }
+.content { max-width:1000px; margin:auto; background:white; min-height:100vh; box-shadow:0 0 50px rgba(0,0,0,0.2); }
+header { text-align:center; padding:80px 40px; background:linear-gradient(135deg,#4285f4,#34a853); color:white; }
+.profile-img { width:220px; height:220px; border-radius:50%; border:6px solid white; box-shadow:0 10px 30px rgba(0,0,0,0.3); margin-bottom:20px; object-fit:cover; }
+h1 { font-size:3.2em; font-weight:300; margin:0 0 10px; letter-spacing:-1px; }
+h2 { font-size:1.4em; font-weight:400; margin:0 0 30px; opacity:0.95; }
+.buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin:40px 0; }
+.btn { background:#fff; color:#4285f4; padding:14px 30px; text-decoration:none; border-radius:30px; font-weight:500; font-size:1.1em; box-shadow:0 5px 20px rgba(0,0,0,0.2); transition:all 0.3s; }
+.btn:hover { transform:translateY(-3px); box-shadow:0 8px 30px rgba(0,0,0,0.3); }
+.research { padding:80px 60px; }
+h3 { font-size:2.2em; text-align:center; color:#2c3e50; margin-bottom:50px; font-weight:300; }
+.items { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; }
+.item { background:#f8f9fa; padding:30px; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:all 0.3s; }
+.item:hover { transform:translateY(-5px); box-shadow:0 15px 40px rgba(0,0,0,0.2); }
+.item h4 { color:#4285f4; margin-top:0; font-size:1.3em; }
+.footer { text-align:center; padding:40px; background:#34495e; color:white; font-size:0.95em; }
+@media (max-width:768px) { .research { padding:40px 20px; } h1 { font-size:2.2em; } }
 </style>
 </head>
 <body>
+<div class="content">
 <header>
-<img src="profile.png" alt="Arijit Dash" onerror="this.src='https://via.placeholder.com/180?text=Arijit'">
+<img src="profile.png" alt="Arijit Dash" class="profile-img" onerror="this.style.display='none'">
 <h1>Arijit Dash</h1>
-<h2>PhD Candidate | Land Economy<br>University of Cambridge</h2>
+<h2>PhD Candidate in Land Economy<br>University of Cambridge</h2>
+<div class="buttons">
 <a href="#research" class="btn">Research</a>
-<a href="files/cv.pdf" class="btn">CV</a>
-<a href="mailto:ad2375@cam.ac.uk" class="btn">Email</a>
-</header>
-
-<section id="research">
-<h2 style="text-align:center;color:#4285f4">Research & Experience</h2>
-<ul>
-<li><strong>PhD Research:</strong> Infrastructure investments & spatial economic growth (Indian states)</li>
-<li><strong>Social Investment:</strong> £142M fund impact assessment (HM Treasury, led team)</li>
-<li><strong>Spatial Analysis:</strong> QGIS mapping Odisha agriculture prices (UMass Economics)</li>
-<li><strong>Policy:</strong> Evaluations for skill/credit schemes (IIPA, influenced decisions)</li>
-</ul>
-<p style="text-align:center"><a href="files/cv.pdf" class="btn">Download CV</a> <a href="https://www.landecon.cam.ac.uk/person/arijit-dash" class="btn">Cambridge Profile</a></p>
-</section>
-
-<footer>
-<p>© 2026 Arijit Dash | <a href="mailto:ad2375@cam.ac.uk">ad2375@cam.ac.uk</a> | <a href="https://github.com/dasharijit">GitHub</a></p>
-</footer>
-</body>
-</html>
+<a href="CV.pdf" class="btn">CV</a>
+<a href="mailto:ad2375
